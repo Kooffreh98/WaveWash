@@ -62,7 +62,7 @@ const  OrderSegment:React.FC<ItemProp> =  ({data1, data2, data3}: ItemProp) => {
             </div>
             :
             <>
-                {data1.map((item, index) => (
+                {data1.map((item: { orderId: number; orderDate: string; pickup: string; total: number; cancel: boolean; confirm: boolean; pickupSet: boolean; }, index: number) => (
                     <OrderCard 
                         key_id={index}
                         orderId={item.orderId}
@@ -85,7 +85,7 @@ const  OrderSegment:React.FC<ItemProp> =  ({data1, data2, data3}: ItemProp) => {
             </div>
             :
             <>
-                {data2.map((item, index) => (
+                {data2.map((item: { orderId: number; orderDate: string; pickup: string; total: number; cancel: boolean; confirm: boolean; pickupSet: boolean; }, index: number) => (
                     <OrderCard 
                     key_id={index}
                     orderId={item.orderId}
@@ -108,7 +108,7 @@ const  OrderSegment:React.FC<ItemProp> =  ({data1, data2, data3}: ItemProp) => {
             </div>
             :
             <>
-                {data3.map((item, index) => (
+                {data3.map((item: { orderId: number; orderDate: string; pickup: string; total: number; cancel: boolean; confirm: boolean; pickupSet: boolean; }, index: number) => (
                     <OrderCard 
                     key_id={index}
                     orderId={item.orderId}

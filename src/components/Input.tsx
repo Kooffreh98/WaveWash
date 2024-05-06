@@ -14,7 +14,7 @@ interface Props {
   names?: string;
   types?: any;
   placeholders?: string;
-  // value: string;
+  value: string;
   event?: React.FormEventHandler<HTMLIonInputElement>
 }
 

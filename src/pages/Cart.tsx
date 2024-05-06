@@ -14,7 +14,7 @@ const CartPage: React.FC = () => {
     let deliveryFee = 2500
     return (
         <IonPage>
-            <MyCart name='My Cart' hide={false}/>
+            <MyCart name='My Cart' hide={false} path=''/>
             <IonContent>
                 {addToCart.shirts.pcs !== 0 && <ItemCart title={services_w[0].title} 
                     img={services_w[0].image}

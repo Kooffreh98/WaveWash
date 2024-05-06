@@ -25,7 +25,7 @@ const PhoneAuth: React.FC = () => {
 
         </div>
         
-        <Input type="number" placeholder='Enter code here'/>
+        <Input type="number" placeholder='Enter code here' name='number' value=''/>
         <p style={{ fontFamily: 'Inter', padding: "15px"}}>Resend Code</p>
 
         <Button buttonName='Continue' />
