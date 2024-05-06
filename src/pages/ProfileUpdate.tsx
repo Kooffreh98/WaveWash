@@ -67,6 +67,7 @@ const ProfileUpdate: React.FC = () => {
               name="first_name"
               types="text" 
               event={(e) => handleChange(e)}
+              value=''
             />
 
             <Input 
@@ -74,6 +75,7 @@ const ProfileUpdate: React.FC = () => {
               placeholder="Last Name"
               name='last_name' 
               event={(e) => handleChange(e)}
+              value=''
             />
 
             <Input 
@@ -81,6 +83,7 @@ const ProfileUpdate: React.FC = () => {
               placeholder="Phone Number"
               name="phone_no" 
               event={(e) => handleChange(e)}
+              value=''
             />
 
             <Input 
@@ -88,6 +91,7 @@ const ProfileUpdate: React.FC = () => {
               placeholder="Email"
               name="email" 
               event={(e) => handleChange(e)}
+              value=''
             />
             
             <IonButton shape='round' expand='full'>Update</IonButton>

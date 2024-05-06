@@ -60,6 +60,7 @@ const LoginPhone: React.FC = () => {
               placeholder="Phone no"
               name='phone_no' 
               event={(e) => handleChange(e)}
+              value=''
             />
             <p style={{ fontSize: '13px', marginBottom: '7rem', color: 'grey' }}>You will receive an SMS verification that may apply message and data rates</p>
            

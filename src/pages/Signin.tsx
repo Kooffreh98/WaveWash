@@ -60,6 +60,7 @@ const Signin: React.FC = () => {
               placeholder="Email"
               name="email"
               event={(e) => handleChange(e)} 
+              value=''
             />
 
             <Input 
@@ -67,6 +68,7 @@ const Signin: React.FC = () => {
               placeholder="Password"
               name='password' 
               event={(e) => handleChange(e)} 
+              value=''
             />
 
             <Link to="changepassword" style={{ color: '#006A55', textDecoration: 'none'}}>

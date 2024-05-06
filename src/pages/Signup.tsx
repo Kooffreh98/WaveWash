@@ -69,6 +69,7 @@ const Signup: React.FC = () => {
               placeholders="lastname"
               names='last_name'   
               event={(e) => handleChange(e)}
+              value=''
             />
 
             <Input 
@@ -76,6 +77,7 @@ const Signup: React.FC = () => {
               placeholder="phone no"
               name="phone_no" 
               event={(e) => handleChange(e)}
+              value=''
             />
 
             <Input 
@@ -83,6 +85,7 @@ const Signup: React.FC = () => {
               placeholder="email"
               name="email" 
               event={(e) => handleChange(e)}
+              value=''
             />
 
             <Input 
@@ -90,6 +93,7 @@ const Signup: React.FC = () => {
               placeholder="password"
               name="password" 
               event={(e) => handleChange(e)}
+              value=''
             />
 
             <Input 
@@ -97,6 +101,7 @@ const Signup: React.FC = () => {
               placeholder="confirm password"
               name="password2" 
               event={(e) => handleChange(e)}
+              value=''
             />
              
             <IonButton shape='round' size='large' style={{ width: '100%' }} onClick={() => handleSubmit()}>Sign up</IonButton>
