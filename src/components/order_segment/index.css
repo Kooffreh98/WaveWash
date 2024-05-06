@@ -1,0 +1,18 @@
+ion-segment-button::part(indicator-background) {
+  background: rgb(228 243 240);
+}
+
+
+ion-segment-button::part(native) {
+  color: grey;
+}
+
+.segment-button-checked::part(native) {
+  color: #006A55;
+}
+
+ion-segment-button::part(indicator-background) {
+  height: 48px;
+  border-radius: 7px;
+}
+
