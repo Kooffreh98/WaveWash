@@ -56,7 +56,7 @@ const Signup: React.FC = () => {
           </IonToolbar>
         </IonHeader>
   
-        <IonContent className="ion-padding">
+        <IonContent color="light" className="ion-padding">
          <Paragraph headertext='Welcome' text='Please fill the form below to create an account'/>
 
           <form action='/' method='post'>

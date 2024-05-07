@@ -18,7 +18,7 @@ const PhoneAuth: React.FC = () => {
         </IonToolbar>
       </IonHeader>
 
-      <IonContent  class='ion-padding-top' className='ion-padding-start'>
+      <IonContent color="light" class='ion-padding-top' className='ion-padding-start'>
         <div className="ion-text-center">
          <Paragraph headertext='Enter Authentication Code' 
          text='Enter the 4-digit that we have sent via the phone number'/>

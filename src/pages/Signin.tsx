@@ -50,7 +50,7 @@ const Signin: React.FC = () => {
           </IonToolbar>
         </IonHeader>
   
-        <IonContent className='ion-padding'>
+        <IonContent color="light" className='ion-padding'>
         <Paragraph headertext='Welcome' text='Sign in via your email address'/>
 
           <form action="/" method='post'>
